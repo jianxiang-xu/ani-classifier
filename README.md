@@ -1,2 +1,2 @@
 # ani-classifier
-animated-charactor classifier(first attempt)
+distinguish between anime charactor and real person (first attempt)
