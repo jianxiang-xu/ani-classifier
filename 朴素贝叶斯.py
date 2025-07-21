@@ -41,7 +41,4 @@ clf = SVC()
 clf.fit(x_train, y_train) 
 #print(np.mean(y_test == clf.predict(x_test))) 
 
-with open(r"C:\Users\xujia\feature_vector_test.txt",'r')as f:
-  data=f.read()
-x_test1=np.array([list(map(int,data.strip().split(',')))])
-print(clf.predict(x_test1))
+
