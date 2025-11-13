@@ -1,2 +1,6 @@
 # ani-classifier
-distinguish between anime charactor and real person (first attempt)
+这是一个区分动漫角色与真人的分类器，基于SVM（但是也可以在 朴素贝叶斯.py文件中换成朴素贝叶斯和决策树）
+feature_extract.py是利用BIC算法从原图片提取特征的脚本，提取出的特征数据集保存在feature_vector.txt文件中
+img_crawler是爬虫脚本
+朴素贝叶斯.py是最后的检测脚本，需要输入数据集和待分类的图片地址
+运行代码所需的库只要在终端pip install即可，传统机器学习库sk-learn不需要保存参数文件，参数全部在内存里，因此每次都要重新训练得到参数
